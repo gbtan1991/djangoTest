@@ -2,5 +2,5 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 
-def home(request): 
-    return HttpResponse("Here's the quiz app")
+def dashboard(request): 
+    return render(request, "dashboard.html")
